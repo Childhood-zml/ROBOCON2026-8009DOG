@@ -13,7 +13,7 @@
 
 2026赛季成绩：**两项项目均获得全国三等奖（国三）**
 
-主体代码框架沿用上赛季二队：https://github\.com/Childhood\-zml/ROBOCON2025\-8009DOG
+主体代码框架沿用上赛季二队：https://github.com/Childhood-zml/ROBOCON2025-8009DOG
 
 迭代部分：
 
