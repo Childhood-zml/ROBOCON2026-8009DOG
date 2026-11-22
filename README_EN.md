@@ -17,6 +17,7 @@ Iteration updates:
 
 - Rewrote the DT7 remote control parser based on the 2025 season implementation. Adopted 50 ms non-blocking debounce, dead zone configuration, CH4 steering lock and emergency stop to replace the original 500 ms blocking confirmation logic. Fixed sign extension for 12-bit speed/torque feedback, clamped each parameter before MIT low-level packet assembly, and unified the CAN handle input parameters.
 - Added joint coil temperature monitoring (alarm and disable at 100 ℃; re-enable at 80 ℃). Implemented segmented gain for the four-phase jumping sequence. Rearranged the roll compensation signs of 8 joints according to assembly orientation. Shortened the motor task period from 3 ms to 2 ms, and built a position–velocity cascade double-loop framework (feedback wiring pending completion).
+- Special note: Due to circumstances arising at a later stage, the manipulator section was not debugged and was not linked with visual navigation. Only the relevant mechanism was available for the competition task.
 
 ## Demos
 
